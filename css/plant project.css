@@ -1,0 +1,22 @@
+.bg-body-tertiary {
+  background-color: rgb(255, 255, 255) !important;
+}
+.nav-link {
+  color: rgb(0, 0, 0);
+}
+.navbar-brand img {
+  width: 100px;
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-hover-color: #479d65;
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}

@@ -5,7 +5,7 @@
   color: rgb(0, 0, 0);
 }
 .navbar-brand img {
-  width: 100px;
+  width: 60px;
 }
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
@@ -19,4 +19,12 @@
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+.carousel-control-prev-icon {
+  background-image: url(../img/Duik_debug_log.png);
+  background-size: contain;
+}
+.carousel-control-next-icon {
+  background-image: url(../img/Duik_debug_log2.png);
+  background-size: contain;
 }
